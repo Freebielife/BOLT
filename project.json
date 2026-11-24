@@ -1,0 +1,100 @@
+{
+  "slug": "bolt",
+  "name": "Huebel Bolt",
+  "symbol": "BOLT",
+  "master": "EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "BOLT"
+  },
+  "pools": [
+    {
+      "address": "EQABHkxndSnqrBgMIDR73LB0FBDDM0C_Up39EL1Rn3ao_54-",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQABHkxndSnqrBgMIDR73LB0FBDDM0C_Up39EL1Rn3ao_54-/events?limit=100"
+    },
+    {
+      "address": "EQAa4jR_TLCE0X3OQZJknsU3dFBccDVclCzmSjpR6aRNAIuy",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQAa4jR_TLCE0X3OQZJknsU3dFBccDVclCzmSjpR6aRNAIuy/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQABHkxndSnqrBgMIDR73LB0FBDDM0C_Up39EL1Rn3ao_54-",
+  "links": {
+    "website": "https://huebel.art/",
+    "telegram": "https://t.me/daitebolt",
+    "community": "https://t.me/boltlink"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795546658,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw/pools?page=1",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw/pools?page=2",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw/pools?page=3",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw/pools?page=4"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "По описанию на официальном сайте, Huebel Bolt (BOLT) — мем-токен в сети TON и часть сообщества Huebel: сеть Telegram-каналов и чатов вокруг мемов и проектов TON. Сайт связывает экосистему с NFT-коллекцией Huebel (TON Furniture). Метаданные этого контракта называют BOLT официальным токеном Huebel Company.",
+    "origin": "reviewed_sources",
+    "sources": [
+      "https://huebel.art/",
+      "https://tonapi.io/v2/jettons/EQD0vdSA_NedR9uvbgN9EikRX-suesDxGeFg69XQMavfLqIw"
+    ],
+    "checked_at": "2026-11-24"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "project_website",
+  "logo_source": "https://huebel.art/images/fav-icon.png",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    }
+  },
+  "flag_source": "TONecoFlags #165; explicitly selected by owner; TONecoFlags-audit/mapping.csv",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQABHkxndSnqrBgMIDR73LB0FBDDM0C_Up39EL1Rn3ao_54-",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "project_website",
+      "source": "https://huebel.art/images/fav-icon.png",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "TONecoFlags #165; explicitly selected by owner; TONecoFlags-audit/mapping.csv",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/daitebolt"
+  }
+}
